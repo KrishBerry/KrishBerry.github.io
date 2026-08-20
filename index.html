@@ -892,7 +892,7 @@
     image.setAttribute("aria-label", "Open full image: " + image.alt);
 
     function openImage() {
-      const card = image.closest(".card");
+      const card = image.closest("figure");
       const titleElement = card.querySelector("figcaption strong");
       const descriptionElement = card.querySelector("figcaption span");
 

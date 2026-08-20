@@ -838,6 +838,112 @@
             </span>
         </div>
     </footer>
+<!-- Fullscreen project image popup -->
+<div
+  class="image-lightbox"
+  id="image-lightbox"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Expanded project image"
+  aria-hidden="true">
 
+  <div class="lightbox-content">
+
+    <img
+      id="lightbox-image"
+      src=""
+      alt="">
+
+    <div class="lightbox-caption">
+      <strong id="lightbox-title"></strong>
+      <span id="lightbox-description"></span>
+    </div>
+
+    <button
+      class="lightbox-close"
+      id="lightbox-close"
+      type="button"
+      aria-label="Close expanded image">
+      ×
+    </button>
+
+  </div>
+</div>
+
+<script>
+  const lightbox = document.getElementById("image-lightbox");
+  const lightboxImage = document.getElementById("lightbox-image");
+  const lightboxTitle = document.getElementById("lightbox-title");
+  const lightboxDescription =
+    document.getElementById("lightbox-description");
+  const lightboxClose = document.getElementById("lightbox-close");
+
+  /*
+    Only select images inside project cards.
+    The hero image is excluded because it is not inside .card.
+  */
+  const projectImages = document.querySelectorAll(".card .frame img");
+
+  projectImages.forEach((image) => {
+    image.setAttribute("tabindex", "0");
+    image.setAttribute("role", "button");
+    image.setAttribute("aria-label", "Open full image: " + image.alt);
+
+    function openImage() {
+      const card = image.closest(".card");
+      const titleElement = card.querySelector("figcaption strong");
+      const descriptionElement = card.querySelector("figcaption span");
+
+      lightboxImage.src = image.src;
+      lightboxImage.alt = image.alt;
+
+      lightboxTitle.textContent =
+        titleElement ? titleElement.textContent : image.alt;
+
+      lightboxDescription.textContent =
+        descriptionElement ? descriptionElement.textContent : "";
+
+      lightbox.classList.add("active");
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.classList.add("lightbox-open");
+
+      lightboxClose.focus();
+    }
+
+    image.addEventListener("click", openImage);
+
+    image.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openImage();
+      }
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove("active");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("lightbox-open");
+
+    lightboxImage.src = "";
+  }
+
+  lightboxClose.addEventListener("click", closeLightbox);
+
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (
+      event.key === "Escape" &&
+      lightbox.classList.contains("active")
+    ) {
+      closeLightbox();
+    }
+  });
+</script>
 </body>
 </html>

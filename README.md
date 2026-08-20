@@ -27,9 +27,3 @@ Mechatronics Engineering student at Monash University.
 - SLAM and autonomous navigation
 - 3D printing
 
-## Running the Website Locally
-
-Install the required packages:
-
-```bash
-npm install

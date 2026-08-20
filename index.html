@@ -882,7 +882,9 @@
     Only select images inside project cards.
     The hero image is excluded because it is not inside .card.
   */
-  const projectImages = document.querySelectorAll(".card .frame img");
+  const projectImages = document.querySelectorAll(
+  ".project-image-card .image-frame img, .drawing-card .image-frame img"
+);
 
   projectImages.forEach((image) => {
     image.setAttribute("tabindex", "0");

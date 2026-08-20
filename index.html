@@ -1,951 +1,827 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+  <meta
+    name="description"
+    content="Krish Berry's mechanical design and CAD portfolio.">
 
-    <meta
-        name="description"
-        content="Krish Berry's mechanical design and CAD portfolio."
-    >
+  <title>Krish Berry | Mechanical Design & CAD Portfolio</title>
 
-    <title>Krish Berry | Mechanical Design & CAD Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header class="site-header">
-        <div class="container navigation">
-            <a class="logo" href="#home">
-                KB<span>.</span>
-            </a>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <b>KB</b>
+      Krish Berry
+    </a>
 
-            <nav>
-                <a href="#projects">Projects</a>
-                <a href="#drawings">Drawings</a>
-                <a href="#machining">Machining</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-    </header>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#cad">CAD Studies</a>
+      <a href="#machining">Machining</a>
+    </nav>
+  </div>
+</header>
 
-    <main>
+<main id="top">
 
-        <!-- Hero -->
-        <section class="hero" id="home">
-            <div class="container hero-grid">
+  <!-- HERO -->
 
-                <div class="hero-content">
-                    <p class="overline">
-                        MECHANICAL ENGINEERING PORTFOLIO · MELBOURNE
-                    </p>
+  <section class="hero">
+    <div class="container hero-grid">
 
-                    <h1>Krish Berry</h1>
+      <div class="hero-content">
+        <p class="eyebrow">Mechanical design · CAD · Prototyping</p>
 
-                    <p class="hero-title">
-                        Mechanical Design
-                        <span>&amp;</span>
-                        CAD Portfolio
-                    </p>
+        <h1>
+          KRISH<br>
+          <span>BERRY</span>
+        </h1>
 
-                    <p class="hero-description">
-                        Selected work in vehicle components, mechanism
-                        design, engineering drawings, tolerancing and
-                        manufacturing-focused CAD.
-                    </p>
+        <p class="lead">
+          A portfolio of mechanical design work developed through
+          competition robotics, vehicle projects, engineering drawing
+          practice and hands-on manufacturing.
+        </p>
 
-                    <div class="hero-buttons">
-                        <a class="primary-button" href="#projects">
-                            Explore projects ↓
-                        </a>
+        <a class="button" href="#projects">Explore projects</a>
 
-                        <a class="secondary-link" href="#drawings">
-                            View drawing studies ↗
-                        </a>
-                    </div>
-                </div>
+        <ul class="tags">
+          <li>SolidWorks</li>
+          <li>Mechanical CAD</li>
+          <li>DFMA</li>
+          <li>Tolerancing</li>
+        </ul>
+      </div>
 
-                <div class="hero-project">
-                    <div class="image-frame hero-image">
-                        <div class="image-placeholder">
-                            <strong>Featured CAD Render</strong>
-                        </div>
+      <figure class="hero-image">
+        <img
+          src="images/warman/warman-robot-capture-system.png"
+          alt="Warman competition robot CAD model">
 
-                        <img
-                            src="images/warman/warman-robot-capture-system.png"
-                            alt="Warman competition robot and capture system CAD model"
-                        >
-                    </div>
+        <figcaption>
+          Featured project · Warman capture robot
+        </figcaption>
+      </figure>
 
-                    <div class="hero-caption">
-                        <span>01</span>
+    </div>
+  </section>
 
-                        <p>
-                            CAD · Mechanical systems · Design for manufacture
-                        </p>
-                    </div>
-                </div>
 
-            </div>
-        </section>
+  <!-- INTRODUCTION -->
 
-        <!-- Portfolio introduction -->
-        <section class="portfolio-introduction">
-            <div class="container introduction-grid">
-                <p class="section-label">SELECTED WORK</p>
+  <section class="intro section">
+    <div class="container intro-grid">
 
-                <h2>
-                    Mechanical design shown through the work itself.
-                </h2>
+      <p class="number">01 / Selected work</p>
 
-                <p class="introduction-note">
-                    Each case study separates my individual contribution
-                    from the wider team system and documents the design
-                    process, available evidence and project outcome.
-                </p>
-            </div>
-        </section>
+      <div>
+        <h2>Designing parts that belong in complete systems.</h2>
 
-        <!-- Projects -->
-        <section id="projects">
+        <p class="lead dark">
+          My work combines component modelling, assembly integration,
+          measurement-led reverse engineering and manufacturing
+          considerations. Each project identifies the design context,
+          my contribution and the resulting CAD evidence.
+        </p>
+      </div>
 
-            <!-- Warman -->
-            <article class="case-study warman-project">
-                <div class="container case-study-grid">
+    </div>
+  </section>
 
-                    <div class="case-study-heading">
-                        <p class="project-number">
-                            01 / COMPETITION MECHANISM
-                        </p>
 
-                        <h2>
-                            Warman Capture &amp; Deposit Mechanism
-                        </h2>
+  <!-- WARMAN PROJECT -->
 
-                        <div class="competition-result">
-                            <strong>3rd place</strong>
+  <section class="project section" id="projects">
+    <div class="container">
 
-                            <span>
-                                Warman Design &amp; Build Competition
-                            </span>
-                        </div>
-                    </div>
+      <div class="title-row">
+        <div>
+          <p class="eyebrow">
+            Competition robotics · First-year CAD
+          </p>
 
-                    <div class="case-study-description">
-                        <p class="lead">
-                            My first major CAD project focused on designing
-                            the robot’s object-capture and depositing
-                            mechanisms.
-                        </p>
-
-                        <p>
-                            I developed the mechanism geometry, supported
-                            its integration with the complete team robot
-                            and contributed to prototype testing. The
-                            project introduced me to component interfaces,
-                            assembly constraints and design iteration.
-                        </p>
-
-                        <div class="contribution-box">
-                            <span>MY CONTRIBUTION</span>
-
-                            <p>
-                                Capture mechanism · Deposit mechanism ·
-                                CAD development · Integration · Testing
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="container image-gallery warman-gallery">
-
-                    <!-- Robot and track -->
-                    <figure class="project-image-card featured-image">
-                        <div class="image-frame">
-                            <div class="image-placeholder">
-                                <strong>Robot on Track</strong>
-                            </div>
-
-                            <img
-                                src="images/warman/warman-competition-track-layout.png"
-                                alt="Warman competition track and complete robot CAD layout"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Complete team system</strong>
-
-                            <span>
-                                Full competition environment showing the
-                                complete team robot and operating area.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <!-- Capture mechanism -->
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <div class="image-placeholder">
-                                <strong>Capture Mechanism</strong>
-                            </div>
-
-                            <img
-                                src="images/warman/warman-robot-capture-system.png"
-                                alt="Warman robot and capture mechanism CAD model"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Capture mechanism</strong>
-
-                            <span>
-                                Integrated mechanism developed for reliable
-                                object collection.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <!-- Deposit mechanism -->
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <div class="image-placeholder">
-                                <strong>Collector Plate</strong>
-                            </div>
-
-                            <img
-                                src="images/warman/collector-plate-drawing.PNG"
-                                alt="Engineering drawing of the Warman collector plate"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Collector plate drawing</strong>
-
-                            <span>
-                                Component drawing supporting manufacture of
-                                the capture mechanism.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                </div>
-
-                <div class="container two-image-gallery supporting-gallery">
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/warman/axil-plate.PNG"
-                                alt="Engineering drawing of the Warman axle plate"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Axle plate drawing</strong>
-                            <span>Detailed component geometry used within the mechanism assembly.</span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/warman/servo-mount.PNG"
-                                alt="Engineering drawing of the Warman servo mount"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Servo mount drawing</strong>
-                            <span>Mounting component used to locate the mechanism actuator.</span>
-                        </figcaption>
-                    </figure>
-                </div>
-
-                <!-- Testing video -->
-                <div class="container video-section">
-                    <div class="video-information">
-                        <p class="section-label">PROTOTYPE TESTING</p>
-
-                        <h3>
-                            Capture and deposit sequence
-                        </h3>
-
-                        <p>
-                            Development testing was used to observe the
-                            mechanism’s movement, object handling and
-                            integration with the complete robot.
-                        </p>
-                    </div>
-
-                    <div class="video-player">
-                        <video controls preload="metadata" playsinline>
-                            <source
-                                src="videos/warman/warman-capture-mechanism-testing.mp4"
-                                type="video/mp4"
-                            >
-                            Your browser does not support video playback.
-                        </video>
-                    </div>
-                </div>
-            </article>
-
-            <!-- MCAV -->
-            <article class="case-study dark-project">
-                <div class="container case-study-grid">
-
-                    <div class="case-study-heading">
-                        <p class="project-number">
-                            02 / VEHICLE COMPONENT
-                        </p>
-
-                        <h2>
-                            MCAV Alloy Wheel Development
-                        </h2>
-                    </div>
-
-                    <div class="case-study-description">
-                        <p class="lead">
-                            Reverse-engineered an existing wheel and tyre,
-                            then developed the CAD around integration,
-                            weight reduction and CNC manufacturing.
-                        </p>
-
-                        <ol class="design-process">
-                            <li>
-                                <span>01</span>
-
-                                <p>
-                                    <strong>Measure</strong>
-                                    Recorded critical dimensions from the
-                                    physical wheel and tyre in the workshop.
-                                </p>
-                            </li>
-
-                            <li>
-                                <span>02</span>
-
-                                <p>
-                                    <strong>Model</strong>
-                                    Reconstructed the wheel and tyre
-                                    interfaces in CAD.
-                                </p>
-                            </li>
-
-                            <li>
-                                <span>03</span>
-
-                                <p>
-                                    <strong>Refine</strong>
-                                    Reduced unnecessary material while
-                                    retaining the required interfaces.
-                                </p>
-                            </li>
-
-                            <li>
-                                <span>04</span>
-
-                                <p>
-                                    <strong>Manufacture</strong>
-                                    Considered CNC tool access and practical
-                                    feature geometry.
-                                </p>
-                            </li>
-
-                            <li>
-                                <span>05</span>
-
-                                <p>
-                                    <strong>Seal</strong>
-                                    Added a sealant provision intended to
-                                    mitigate an observed oil leak.
-                                </p>
-                            </li>
-                        </ol>
-                    </div>
-
-                </div>
-
-                <div class="container four-image-gallery">
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/mcav/wheel-hub-assembly.png"
-                                alt="Complete MCAV wheel and hub CAD assembly"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Complete wheel and hub assembly</strong>
-
-                            <span>
-                                Integrated view of the tyre, rim, hub plate
-                                and surrounding components.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/mcav/alloy-wheel-outer-view.png"
-                                alt="Outer view of the MCAV alloy wheel CAD model"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Alloy wheel — outer view</strong>
-
-                            <span>
-                                Wheel geometry reconstructed from workshop
-                                measurements.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/mcav/lightweight-hub-plate.png"
-                                alt="Weight-reduced MCAV hub plate CAD design"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Lightweight hub plate</strong>
-
-                            <span>
-                                Material reduction with CNC manufacturing
-                                considered.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/mcav/hub-plate-installed.png"
-                                alt="Lightweight hub plate installed in the MCAV assembly"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Hub plate installed</strong>
-
-                            <span>
-                                Revised part shown in context, including the
-                                interface where sealant was provided.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                </div>
-
-                <div class="container four-image-gallery supporting-gallery">
-                    <figure class="project-image-card">
-                        <div class="image-frame"><img src="images/mcav/alloy-wheel-inner-view.png" alt="Inner view of the alloy wheel CAD model"></div>
-                        <figcaption><strong>Alloy wheel — inner view</strong><span>Internal rim profile and mounting geometry.</span></figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame"><img src="images/mcav/axle-interface-side-view.png" alt="Side view of the MCAV axle interface"></div>
-                        <figcaption><strong>Axle interface</strong><span>Side view used to assess positioning, fit and sealing.</span></figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame"><img src="images/mcav/wheel-and-tyre-assembly.png" alt="MCAV wheel and tyre assembly"></div>
-                        <figcaption><strong>Wheel and tyre assembly</strong><span>Measured model used to verify the overall package.</span></figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame"><img src="images/mcav/wheel-tyre-axle-assembly.png" alt="MCAV wheel tyre and axle assembly"></div>
-                        <figcaption><strong>Wheel–tyre–axle assembly</strong><span>Complete assembly showing the axle relationship.</span></figcaption>
-                    </figure>
-                </div>
-            </article>
-
-            <!-- RC car -->
-            <article class="case-study">
-                <div class="container case-study-grid">
-
-                    <div class="case-study-heading">
-                        <p class="project-number">
-                            03 / ONBOARDING PROJECT
-                        </p>
-
-                        <h2>
-                            RC Car Steering System
-                        </h2>
-                    </div>
-
-                    <div class="case-study-description">
-                        <p class="lead">
-                            Designed steering components from manufacturer
-                            information and integrated them into the
-                            complete RC vehicle assembly.
-                        </p>
-
-                        <p>
-                            My work included modelling the steering shaft
-                            or universal component from supplied
-                            dimensions, designing its retaining coupling
-                            at the steering column and applying bearing-fit
-                            tolerances.
-                        </p>
-
-                        <p>
-                            The completed steering assembly was checked for
-                            alignment, component clearance and steering
-                            movement.
-                        </p>
-
-                        <div class="contribution-box">
-                            <span>DESIGN FOCUS</span>
-
-                            <p>
-                                Drawing interpretation · Steering
-                                components · Coupling design · Bearing
-                                tolerances · Assembly integration
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="container image-gallery rc-gallery">
-
-                    <figure class="project-image-card featured-image">
-                        <div class="image-frame">
-                            <img
-                                src="images/rc-car/complete-rc-car-assembly.png"
-                                alt="Complete RC car CAD assembly"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Complete vehicle assembly</strong>
-
-                            <span>
-                                Steering components shown in the wider
-                                vehicle package.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/rc-car/steering-knuckle-front.png"
-                                alt="Front view of the RC car steering knuckle"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Steering knuckle — front</strong>
-
-                            <span>
-                                Bearing bore, pivot features and steering
-                                arm integrated into one component.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/rc-car/front-cvd-driveshaft.png"
-                                alt="Front CVD driveshaft CAD model"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Front CVD driveshaft</strong>
-
-                            <span>
-                                Modelled from manufacturer dimensions to
-                                transmit torque while allowing steering.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                </div>
-
-                <div class="container two-image-gallery supporting-gallery">
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img src="images/rc-car/steering-knuckle-rear.png" alt="Rear view of the RC car steering knuckle">
-                        </div>
-                        <figcaption><strong>Steering knuckle — rear</strong><span>Supporting geometry and bearing interface.</span></figcaption>
-                    </figure>
-
-                    <figure class="project-image-card physical-photo">
-                        <div class="image-frame">
-                            <img src="images/rc-car/rc_car_dynamic.jpg" alt="Physical RC car during testing">
-                        </div>
-                        <figcaption><strong>Physical RC vehicle</strong><span>Completed vehicle providing context for the steering system.</span></figcaption>
-                    </figure>
-                </div>
-            </article>
-
-        </section>
-
-        <!-- CAD drawings -->
-        <section class="drawings-section" id="drawings">
-            <div class="container drawings-introduction">
-                <p class="section-label">04 / SELECTED STUDIES</p>
-
-                <h2>
-                    Mechanical CAD &amp; Engineering Drawings
-                </h2>
-
-                <p>
-                    Coursework studies demonstrating parametric part
-                    modelling, assemblies, orthographic projection,
-                    section views, dimensional control and tolerancing.
-                </p>
-            </div>
-
-            <div class="container drawings-grid">
-
-                <figure class="drawing-card">
-                    <div class="image-frame">
-                        <div class="image-placeholder">
-                            <strong>Four-bolt flanged mount</strong>
-                        </div>
-
-                        <img
-                            src="images/mechanical-cad/four-bolt-flanged-mount.png"
-                            alt="Four-bolt flanged mount CAD model"
-                        >
-                    </div>
-
-                    <figcaption>
-                        Four-bolt flanged mount · Part model
-                    </figcaption>
-                </figure>
-
-                <figure class="drawing-card">
-                    <div class="image-frame">
-                        <div class="image-placeholder">
-                            <strong>Flanged mount drawing</strong>
-                        </div>
-
-                        <img
-                            src="images/mechanical-cad/four-bolt-flanged-mount-drawing.png"
-                            alt="Four-bolt flanged mount engineering drawing"
-                        >
-                    </div>
-
-                    <figcaption>
-                        Orthographic views · Dimensions · Section view
-                    </figcaption>
-                </figure>
-
-                <figure class="drawing-card">
-                    <div class="image-frame">
-                        <div class="image-placeholder">
-                            <strong>Sectioned support housing</strong>
-                        </div>
-
-                        <img
-                            src="images/mechanical-cad/sectioned-support-housing.png"
-                            alt="Sectioned support housing CAD model"
-                        >
-                    </div>
-
-                    <figcaption>
-                        Complex features · Internal geometry
-                    </figcaption>
-                </figure>
-
-                <figure class="drawing-card">
-                    <div class="image-frame">
-                        <div class="image-placeholder">
-                            <strong>Support housing drawing</strong>
-                        </div>
-
-                        <img
-                            src="images/mechanical-cad/sectioned-support-housing-drawing.png"
-                            alt="Sectioned support housing engineering drawing"
-                        >
-                    </div>
-
-                    <figcaption>
-                        Section views · Dimensions · Tolerancing
-                    </figcaption>
-                </figure>
-
-                <figure class="drawing-card final-drawing-card">
-                    <div class="image-frame">
-                        <img
-                            src="images/mechanical-cad/stepped-hexagonal-adapter.png"
-                            alt="Stepped hexagonal adapter CAD model"
-                        >
-                    </div>
-
-                    <figcaption>
-                        Stepped hexagonal adapter · Feature modelling
-                    </figcaption>
-                </figure>
-
-            </div>
-        </section>
-
-        <!-- Machining -->
-        <section class="machining-section" id="machining">
-            <div class="container machining-grid">
-
-                <div class="machining-introduction">
-                    <p class="section-label">
-                        05 / MANUFACTURING EXPERIENCE
-                    </p>
-
-                    <h2>
-                        Machining experience that informs the CAD.
-                    </h2>
-
-                    <p>
-                        Practical workshop experience helped connect CAD
-                        decisions with tool access, setup, measurement,
-                        material removal and achievable component geometry.
-                    </p>
-                </div>
-
-                <div class="machining-images">
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/machining/turned-stepped-threaded-shaft.jpg"
-                                alt="Turned stepped and threaded shaft"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Turned stepped and threaded shaft</strong>
-
-                            <span>
-                                Facing, parallel turning, shoulder turning,
-                                taper turning and external thread cutting.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card">
-                        <div class="image-frame">
-                            <img
-                                src="images/machining/machined-g-clamped.jpg"
-                                alt="Machined G-clamp"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Machined G-clamp</strong>
-
-                            <span>
-                                Milling, drilling, turning, external
-                                threading, fitting and assembly.
-                            </span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card physical-photo">
-                        <div class="image-frame">
-                            <img
-                                src="images/machining/drill-size-gauge-plate.jpg"
-                                alt="Drill-size gauge plate"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Drill-size gauge plate</strong>
-                            <span>Marking out, centre punching, drilling, measurement and finishing.</span>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="project-image-card physical-photo">
-                        <div class="image-frame">
-                            <img
-                                src="images/machining/milled-radius-groove-blocks.jpg"
-                                alt="Milled radius-groove blocks"
-                            >
-                        </div>
-
-                        <figcaption>
-                            <strong>Milled radius-groove blocks</strong>
-                            <span>Workpiece setup, milling, radius formation and dimensional control.</span>
-                        </figcaption>
-                    </figure>
-
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer id="contact">
-        <div class="container footer-grid">
-
-            <div>
-                <p class="section-label">CONTACT</p>
-
-                <h2>Interested in the work?</h2>
-
-                <p>
-                    Contact me to discuss my mechanical design projects
-                    and CAD experience.
-                </p>
-            </div>
-
-            <div class="footer-links">
-                <a href="mailto:Krishberry1234@gmail.com">
-                    Email ↗
-                </a>
-
-                <a
-                    href="https://github.com/KrishBerry"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    GitHub ↗
-                </a>
-
-                <!-- Replace # with the real LinkedIn address -->
-                <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    LinkedIn ↗
-                </a>
-            </div>
-
+          <h2>Warman Capture &amp; Deposit Mechanism</h2>
         </div>
 
-        <div class="container footer-bottom">
-            <span>Krish Berry</span>
+        <p class="result">
+          <strong>3rd place</strong>
+          Warman Design &amp; Build Competition
+        </p>
+      </div>
+
+      <div class="summary">
+        <p>
+          I contributed to the design of the robot's ball-capturing and
+          depositing mechanisms. This was my first major CAD project and
+          introduced me to designing individual parts within the
+          constraints of a complete competition system.
+        </p>
+
+        <ul>
+          <li>Capture and deposit mechanism development</li>
+          <li>Part and assembly modelling</li>
+          <li>Robot-platform integration</li>
+          <li>Iterative testing with the team</li>
+        </ul>
+      </div>
+
+      <div class="gallery feature">
+
+        <figure class="card">
+          <div class="frame landscape">
+            <img
+              src="images/warman/warman-robot-capture-system.png"
+              alt="Warman robot capture system"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Robot and capture system</strong>
 
             <span>
-                Mechanical Design &amp; CAD Portfolio · 2026
+              Integrated CAD view showing the mechanism within the
+              competition environment.
             </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame landscape">
+            <img
+              src="images/warman/warman-competition-track-layout.png"
+              alt="Warman competition track layout"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Competition track layout</strong>
+
+            <span>
+              Full system context used to assess access, movement and
+              depositing locations.
+            </span>
+          </figcaption>
+        </figure>
+
+      </div>
+
+      <div class="gallery three">
+
+        <figure class="card">
+          <div class="frame drawing">
+            <img
+              src="images/warman/collector-plate-drawing.PNG"
+              alt="Collector plate engineering drawing"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Collector plate</strong>
+
+            <span>
+              Manufacturing drawing for a capture-mechanism component.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame drawing">
+            <img
+              src="images/warman/axil-plate.PNG"
+              alt="Axle plate engineering drawing"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Axle plate</strong>
+
+            <span>
+              Detailed component drawing supporting mechanism assembly.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame drawing">
+            <img
+              src="images/warman/servo-mount.PNG"
+              alt="Servo mount engineering drawing"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Servo mount</strong>
+
+            <span>
+              Component used to locate the mechanism actuator.
+            </span>
+          </figcaption>
+        </figure>
+
+      </div>
+
+      <div class="video-box">
+
+        <div>
+          <p class="eyebrow">Testing evidence</p>
+
+          <h3>Capture mechanism in operation</h3>
+
+          <p>
+            A short test documenting the physical mechanism during
+            development.
+          </p>
         </div>
-    </footer>
-<!-- Fullscreen project image popup -->
-<div
-  class="image-lightbox"
-  id="image-lightbox"
-  role="dialog"
-  aria-modal="true"
-  aria-label="Expanded project image"
-  aria-hidden="true">
 
-  <div class="lightbox-content">
+        <video controls preload="metadata" playsinline>
+          <source
+            src="videos/warman/warman-capture-mechanism-testing.mp4"
+            type="video/mp4">
 
-    <img
-      id="lightbox-image"
-      src=""
-      alt="">
+          Your browser cannot play this video.
+        </video>
 
-    <div class="lightbox-caption">
-      <strong id="lightbox-title"></strong>
-      <span id="lightbox-description"></span>
+      </div>
+
     </div>
+  </section>
 
-    <button
-      class="lightbox-close"
-      id="lightbox-close"
-      type="button"
-      aria-label="Close expanded image">
-      ×
-    </button>
 
+  <!-- MCAV PROJECT -->
+
+  <section class="project section alt">
+    <div class="container">
+
+      <div class="title-row">
+        <div>
+          <p class="eyebrow">MCAV · Drivetrain development</p>
+          <h2>Wheel &amp; Hub Development</h2>
+        </div>
+
+        <p class="project-no">02</p>
+      </div>
+
+      <div class="summary">
+        <p>
+          I modelled an alloy wheel from workshop measurements of the
+          physical wheel and tyre, then contributed to drivetrain
+          refinements. The work included reducing mass, considering CNC
+          manufacturability and adding a sealant provision in response
+          to an observed oil leak.
+        </p>
+
+        <ul>
+          <li>Reverse engineering from measured parts</li>
+          <li>Weight-reduction features</li>
+          <li>CNC manufacturing considerations</li>
+          <li>Sealant interface for leak mitigation</li>
+        </ul>
+      </div>
+
+      <div class="gallery feature">
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/wheel-hub-assembly.png"
+              alt="Complete wheel and hub assembly"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Complete wheel and hub assembly</strong>
+
+            <span>
+              Integrated tyre, rim, hub plate and surrounding components.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/wheel-tyre-axle-assembly.png"
+              alt="Wheel tyre and axle assembly"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Wheel–tyre–axle assembly</strong>
+
+            <span>
+              Assembly view showing the wheel's relationship to the
+              axle interface.
+            </span>
+          </figcaption>
+        </figure>
+
+      </div>
+
+      <div class="gallery three">
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/lightweight-hub-plate.png"
+              alt="Lightweight hub plate"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Lightweight hub plate</strong>
+
+            <span>
+              Material removed while retaining the required mounting
+              geometry and manufacturable form.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/hub-plate-installed.png"
+              alt="Hub plate installed in the assembly"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Hub plate installed</strong>
+
+            <span>
+              The revised component shown within its surrounding
+              assembly interfaces.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/axle-interface-side-view.png"
+              alt="Axle interface side view"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Axle interface</strong>
+
+            <span>
+              Side view used to assess axial positioning, fit and
+              sealing interfaces.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/alloy-wheel-outer-view.png"
+              alt="Alloy wheel outer view"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Alloy wheel — outer view</strong>
+
+            <span>
+              Wheel geometry reconstructed from measurements taken in
+              the workshop.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/alloy-wheel-inner-view.png"
+              alt="Alloy wheel inner view"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Alloy wheel — inner view</strong>
+
+            <span>
+              Internal rim profile and mounting geometry captured in
+              the CAD model.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/mcav/wheel-and-tyre-assembly.png"
+              alt="Wheel and tyre assembly"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Wheel and tyre assembly</strong>
+
+            <span>
+              Completed measured model used to verify the overall
+              package geometry.
+            </span>
+          </figcaption>
+        </figure>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- RC CAR PROJECT -->
+
+  <section class="project section">
+    <div class="container">
+
+      <div class="title-row">
+        <div>
+          <p class="eyebrow">MCAV onboarding · RC vehicle</p>
+          <h2>RC Car Steering System</h2>
+        </div>
+
+        <p class="project-no">03</p>
+      </div>
+
+      <div class="summary">
+        <p>
+          For the onboarding vehicle, I developed steering components
+          within the complete RC car assembly. This included modelling
+          the front CVD driveshaft from manufacturer dimensions,
+          designing the steering-knuckle interfaces and applying
+          bearing-fit tolerancing.
+        </p>
+
+        <ul>
+          <li>Steering knuckle and hub-carrier geometry</li>
+          <li>CVD driveshaft model from product dimensions</li>
+          <li>Bearing fits and tolerancing</li>
+          <li>Full-assembly clearance checks</li>
+        </ul>
+      </div>
+
+      <div class="gallery feature">
+
+        <figure class="card">
+          <div class="frame landscape">
+            <img
+              src="images/rc-car/complete-rc-car-assembly.png"
+              alt="Complete RC car CAD assembly"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Complete RC car assembly</strong>
+
+            <span>
+              System-level CAD used to integrate and assess the
+              steering components.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame photo">
+            <img
+              src="images/rc-car/rc_car_dynamic.jpg"
+              alt="Physical RC car"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Physical vehicle</strong>
+
+            <span>
+              Real-world context for the modelled steering system.
+            </span>
+          </figcaption>
+        </figure>
+
+      </div>
+
+      <div class="gallery three">
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/rc-car/steering-knuckle-front.png"
+              alt="Front view of the steering knuckle"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Steering knuckle — front</strong>
+
+            <span>
+              Bearing bore, pivot features and steering arm integrated
+              into one component.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame square">
+            <img
+              src="images/rc-car/steering-knuckle-rear.png"
+              alt="Rear view of the steering knuckle"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Steering knuckle — rear</strong>
+
+            <span>
+              Rear view showing the supporting geometry and bearing
+              interface.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame wide">
+            <img
+              src="images/rc-car/front-cvd-driveshaft.png"
+              alt="Front CVD driveshaft"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Front CVD driveshaft</strong>
+
+            <span>
+              Modelled from manufacturer dimensions to transmit torque
+              while accommodating steering motion.
+            </span>
+          </figcaption>
+        </figure>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CAD STUDIES -->
+
+  <section class="section studies" id="cad">
+    <div class="container">
+
+      <div class="section-head">
+        <div>
+          <p class="number">04 / Technical development</p>
+
+          <h2>
+            Mechanical CAD &amp;<br>
+            Engineering Drawings
+          </h2>
+        </div>
+
+        <p>
+          Practice components used to develop feature planning,
+          section views, dimensioning and tolerance communication.
+        </p>
+      </div>
+
+      <div class="pairs">
+
+        <article class="pair">
+
+          <figure class="card">
+            <div class="frame square">
+              <img
+                src="images/mechanical-cad/four-bolt-flanged-mount.png"
+                alt="Four-bolt flanged mount CAD model"
+                loading="lazy">
+            </div>
+
+            <figcaption>
+              <strong>Four-bolt flanged mount</strong>
+              <span>Part modelling exercise</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card">
+            <div class="frame drawing">
+              <img
+                src="images/mechanical-cad/four-bolt-flanged-mount-drawing.png"
+                alt="Four-bolt flanged mount engineering drawing"
+                loading="lazy">
+            </div>
+
+            <figcaption>
+              <strong>Manufacturing communication</strong>
+              <span>Associated engineering drawing</span>
+            </figcaption>
+          </figure>
+
+        </article>
+
+        <article class="pair">
+
+          <figure class="card">
+            <div class="frame square">
+              <img
+                src="images/mechanical-cad/sectioned-support-housing.png"
+                alt="Sectioned support housing CAD model"
+                loading="lazy">
+            </div>
+
+            <figcaption>
+              <strong>Sectioned support housing</strong>
+              <span>Part modelling exercise</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card">
+            <div class="frame drawing">
+              <img
+                src="images/mechanical-cad/sectioned-support-housing-drawing.png"
+                alt="Sectioned support housing engineering drawing"
+                loading="lazy">
+            </div>
+
+            <figcaption>
+              <strong>Internal feature definition</strong>
+              <span>Sectioned engineering drawing</span>
+            </figcaption>
+          </figure>
+
+        </article>
+
+        <article class="pair single">
+
+          <figure class="card">
+            <div class="frame square">
+              <img
+                src="images/mechanical-cad/stepped-hexagonal-adapter.png"
+                alt="Stepped hexagonal adapter CAD model"
+                loading="lazy">
+            </div>
+
+            <figcaption>
+              <strong>Stepped hexagonal adapter</strong>
+
+              <span>
+                Feature-based modelling exercise combining prismatic
+                and revolved geometry.
+              </span>
+            </figcaption>
+          </figure>
+
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- MACHINING -->
+
+  <section class="section machining" id="machining">
+    <div class="container">
+
+      <div class="section-head">
+        <div>
+          <p class="number">05 / Hands-on manufacturing</p>
+          <h2>Machining Course Work</h2>
+        </div>
+
+        <p>
+          Physical parts produced during practical training, building
+          familiarity with turning, milling, drilling, thread cutting,
+          measurement and finishing.
+        </p>
+      </div>
+
+      <div class="gallery two">
+
+        <figure class="card">
+          <div class="frame photo tall">
+            <img
+              src="images/machining/turned-stepped-threaded-shaft.jpg"
+              alt="Turned stepped and threaded shaft"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Turned stepped and threaded shaft</strong>
+
+            <span>
+              Facing, parallel turning, shoulder turning, taper turning
+              and external thread cutting.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame photo tall">
+            <img
+              src="images/machining/machined-g-clamped.jpg"
+              alt="Machined G-clamp"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Machined G-clamp</strong>
+
+            <span>
+              Milling, drilling, turning, external threading, fitting
+              and assembly.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame photo">
+            <img
+              src="images/machining/drill-size-gauge-plate.jpg"
+              alt="Drill-size gauge plate"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Drill-size gauge plate</strong>
+
+            <span>
+              Marking out, centre punching, drilling, measurement and
+              surface finishing.
+            </span>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="frame photo">
+            <img
+              src="images/machining/milled-radius-groove-blocks.jpg"
+              alt="Milled radius-groove blocks"
+              loading="lazy">
+          </div>
+
+          <figcaption>
+            <strong>Milled radius-groove blocks</strong>
+
+            <span>
+              Workpiece setup, milling, radius formation and
+              dimensional control.
+            </span>
+          </figcaption>
+        </figure>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CLOSING -->
+
+  <section class="section closing">
+    <div class="container">
+
+      <p class="eyebrow">Mechanical design portfolio</p>
+
+      <h2>
+        From measured components to integrated assemblies.
+      </h2>
+
+      <p>
+        This portfolio will continue to develop as further CAD, design
+        and manufacturing work is completed.
+      </p>
+
+      <a class="button" href="#top">Back to top</a>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <span>© 2026 Krish Berry</span>
+    <span>Mechanical Design &amp; CAD Portfolio</span>
   </div>
-</div>
+</footer>
 
-<script>
-  const lightbox = document.getElementById("image-lightbox");
-  const lightboxImage = document.getElementById("lightbox-image");
-  const lightboxTitle = document.getElementById("lightbox-title");
-  const lightboxDescription =
-    document.getElementById("lightbox-description");
-  const lightboxClose = document.getElementById("lightbox-close");
-
-  /*
-    Only select images inside project cards.
-    The hero image is excluded because it is not inside .card.
-  */
-  const projectImages = document.querySelectorAll(
-  ".project-image-card .image-frame img, .drawing-card .image-frame img"
-);
-
-  projectImages.forEach((image) => {
-    image.setAttribute("tabindex", "0");
-    image.setAttribute("role", "button");
-    image.setAttribute("aria-label", "Open full image: " + image.alt);
-
-    function openImage() {
-      const card = image.closest("figure");
-      const titleElement = card.querySelector("figcaption strong");
-      const descriptionElement = card.querySelector("figcaption span");
-
-      lightboxImage.src = image.src;
-      lightboxImage.alt = image.alt;
-
-      lightboxTitle.textContent =
-        titleElement ? titleElement.textContent : image.alt;
-
-      lightboxDescription.textContent =
-        descriptionElement ? descriptionElement.textContent : "";
-
-      lightbox.classList.add("active");
-      lightbox.setAttribute("aria-hidden", "false");
-      document.body.classList.add("lightbox-open");
-
-      lightboxClose.focus();
-    }
-
-    image.addEventListener("click", openImage);
-
-    image.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        openImage();
-      }
-    });
-  });
-
-  function closeLightbox() {
-    lightbox.classList.remove("active");
-    lightbox.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("lightbox-open");
-
-    lightboxImage.src = "";
-  }
-
-  lightboxClose.addEventListener("click", closeLightbox);
-
-  lightbox.addEventListener("click", (event) => {
-    if (event.target === lightbox) {
-      closeLightbox();
-    }
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (
-      event.key === "Escape" &&
-      lightbox.classList.contains("active")
-    ) {
-      closeLightbox();
-    }
-  });
-</script>
 </body>
 </html>

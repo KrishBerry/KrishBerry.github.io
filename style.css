@@ -890,14 +890,16 @@ footer {
    ===================================================== */
 
 /* Show that project images can be clicked */
-.card .frame img {
+.project-image-card .image-frame img,
+.drawing-card .image-frame img {
   cursor: zoom-in;
   transition:
     transform 0.25s ease,
     opacity 0.25s ease;
 }
 
-.card .frame:hover img {
+.project-image-card .image-frame:hover img,
+.drawing-card .image-frame:hover img {
   transform: scale(1.02);
   opacity: 0.92;
 }

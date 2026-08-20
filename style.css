@@ -420,8 +420,7 @@ footer h2 {
 /* Image galleries */
 
 .image-gallery,
-.four-image-gallery,
-.two-image-gallery {
+.four-image-gallery {
     margin-top: 80px;
     display: grid;
     gap: 22px;
@@ -436,14 +435,6 @@ footer h2 {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.two-image-gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.supporting-gallery {
-    margin-top: 22px;
-}
-
 .project-image-card {
     margin: 0;
     background: white;
@@ -452,18 +443,6 @@ footer h2 {
 
 .project-image-card .image-frame {
     aspect-ratio: 4 / 3;
-    background: white;
-}
-
-.project-image-card .image-frame img {
-    padding: 10px;
-    background: white;
-    object-fit: contain;
-}
-
-.project-image-card.physical-photo .image-frame img {
-    padding: 0;
-    object-fit: cover;
 }
 
 .project-image-card.featured-image .image-frame {
@@ -532,20 +511,6 @@ footer h2 {
     max-width: 420px;
     color: #aab7cb;
     font-size: 0.76rem;
-}
-
-.video-player {
-    overflow: hidden;
-    border-radius: 3px;
-    background: #050b14;
-    box-shadow: 0 18px 45px rgba(13, 27, 47, 0.2);
-}
-
-.video-player video {
-    width: 100%;
-    max-height: 620px;
-    display: block;
-    background: black;
 }
 
 /* Dark MCAV section */
@@ -651,11 +616,6 @@ footer h2 {
     font-weight: 800;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-}
-
-.final-drawing-card {
-    grid-column: span 2;
-    width: calc(50% - 12px);
 }
 
 /* Machining */
@@ -772,8 +732,7 @@ footer {
 
     .warman-gallery,
     .rc-gallery,
-    .four-image-gallery,
-    .two-image-gallery {
+    .four-image-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -853,14 +812,8 @@ footer {
     .rc-gallery,
     .four-image-gallery,
     .drawings-grid,
-    .machining-images,
-    .two-image-gallery {
+    .machining-images {
         grid-template-columns: 1fr;
-    }
-
-    .final-drawing-card {
-        grid-column: auto;
-        width: 100%;
     }
 
     .featured-image {

@@ -833,21 +833,25 @@
 
     popupStyle.textContent = `
       .cad-image-popup {
-        width: auto;
-        max-width: none;
-        max-height: none;
+  position: fixed;
+  inset: 0;
 
-        margin: auto;
-        padding: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
 
-        overflow: visible;
+  margin: 0;
+  padding: 0;
 
-        border: 0;
-        border-radius: 18px;
+  border: 0;
+  background: transparent;
+}
 
-        color: #142131;
-        background: transparent;
-      }
+.cad-image-popup[open] {
+  display: grid;
+  place-items: center;
+}
 
       .cad-image-popup::backdrop {
         background: rgba(7, 21, 37, 0.92);
@@ -855,24 +859,23 @@
       }
 
       .cad-popup-container {
-        position: relative;
+  position: relative;
 
-        width: min(1200px, 92vw);
-        max-height: 92vh;
+  width: min(1200px, 92vw);
+  max-height: 90vh;
 
-        display: flex;
-        flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-        overflow: hidden;
+  overflow: hidden;
 
-        border: 1px solid rgba(255, 255, 255, 0.25);
-        border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 18px;
 
-        background: white;
+  background: white;
 
-        box-shadow:
-          0 30px 100px rgba(0, 0, 0, 0.65);
-      }
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.65);
+}
 
       .cad-popup-image {
         width: 100%;
